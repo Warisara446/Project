@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>RavenClaw Place</title>
+    <style>
+        .logo {
+            float: left;
+        }
+
+        .logo img {
+            height: 110px;
+            padding: 20px 50px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            font-family: "Helvetica", Times, serif;
+        }
+
+        .wrapper {
+            width: 1170px;
+            margin: auto;
+        }
+
+        header {
+            background: linear-gradient(rgba(0, 6, 187, 0.3), rgba(255, 255, 255, 0.3)), url(bg.jpg);
+            height: 100vh;
+            width: auto;
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+        }
+
+        .nav-area {
+            float: right;
+            list-style: none;
+            margin-top: 30px;
+        }
+
+        .nav-area li {
+            display: inline-block;
+        }
+
+        .nav-area li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 5px 20px;
+            font-family: Helvetica;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+
+        .nav-area li a:hover {
+            background: #fff;
+            color: rgb(43, 37, 45);
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .section {
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            display: block;
+            margin: auto;
+            padding-top: 100px;
+        }
+
+        .content-section {
+            float: left;
+            width: 55%;
+            color: #ffffff;
+        }
+
+        .image-section {
+            float: right;
+            width: 40%;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: auto;
+        }
+
+        .content-section .title {
+            text-transform: uppercase;
+            font-size: 28px;
+            font-weight: lighter;
+
+        }
+
+        .content-section .content h3 {
+            margin-top: 20px;
+            color: #ffffff;
+            font-size: 21px;
+        }
+
+        .content-section .content p {
+            margin-top: 10px;
+            font-family: sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .content-section .content .button {
+            margin-top: 30px;
+        }
+
+        .content-section .content .button a {
+            background-color: #3d3d3d;
+            padding: 12px 40px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 25px;
+            letter-spacing: 1.5px;
+        }
+
+        .content-section .content .button a:hover {
+            background-color: #dcad00;
+            color: #fff;
+        }
+
+        .content-section .social {
+            margin: 40px 40px;
+        }
+
+        .content-section .social i {
+            color: #a52a2a;
+            font-size: 30px;
+            padding: 0px 10px;
+        }
+
+        .content-section .social i:hover {
+            color: #3d3d3d;
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 80%;
+                display: block;
+                margin: auto;
+                padding-top: 50px;
+            }
+
+            .content-section {
+                float: none;
+                width: 100%;
+                display: block;
+                margin: auto;
+            }
+
+            .image-section {
+                float: none;
+                width: 100%;
+
+            }
+
+            .image-section img {
+                width: 100%;
+                height: auto;
+                display: block;
+                margin: auto;
+            }
+
+            .content-section .title {
+                text-align: center;
+                font-size: 19px;
+                font-weight: lighter;
+            }
+
+            .content-section .content .button {
+                text-align: center;
+            }
+
+            .content-section .content .button a {
+                padding: 9px 30px;
+            }
+
+            .content-section .social {
+                text-align: center;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body background="img/bg.jpg">
+    <header>
+        <div class="logo">
+            <a href="home.php"><img src="img/logo.png"></a>
+        </div>
+        <div class="wrapper">
+            <ul class="nav-area">
+                <li><a href="home.php">Home</a></li>
+                <li><a href="login.php">Reserve</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="content-section">
+                    <div class="title">
+                        <h1>About Us</h1>
+                    </div>
+                    <div class="content">
+                        <h3> "Wit beyond measure is man's greatest treasure."
+                            — Rowena Ravenclaw's motto </p>
+                        <div class="button">
+                            <a href="abroomtype.html">Room Type</a>
+                        </div>
+                        <div class="button">
+                            <a href="abmap.html">Map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
